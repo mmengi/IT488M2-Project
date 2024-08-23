@@ -1,0 +1,8 @@
+document.getElementById("accountForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("Account created successfully!");
+});
+
+document.getElementById("sortOptions").addEventListener("change", function() {
+    alert("Products sorted by " + this.value);
+});
